@@ -33,15 +33,21 @@ Starts web server
 
 ## How to run
 
-`docker-compose up -d`
+Start up both containers with one line of code: `docker-compose up -d`
+Stop them: `docker-compose down`
 
 ## How to test
 
+`docker ps`
 
-
-# Example 02
+# Example 02 - Plumber API + ShinyApp
 
 ## Purpose
+
+Use compose for images developed in the docker course:
+
+* docker-r-plumber
+* shiny-merkle-tree
 
 ## Details
 
