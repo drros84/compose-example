@@ -1,0 +1,7 @@
+# Docker compose file to test multi container application:
+# API publisher, ShinyApp
+version: '3.7'
+services:
+  plumber:
+    image: vladdsm/docker-r-plumber
+    
