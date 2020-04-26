@@ -4,10 +4,31 @@ version: '3.7'
 services:
   plumber:
     image: vladdsm/docker-r-plumber
-    name: API
+    #name: API
+    networks:
+      - my-net
   shiny:
-    image: vladdsm/
+    image: vladdsm/docker-trackpack
+    #name: APP
+    ports:
+      - 80:80
+    networks:
+      - my-net
+  rstudio:
+    image: vladdsm/docker-r-studio
+    ports:
+      - 8787:8787
+    user: myself:myself
+    secrets: 
+      - my_secret
+    volumes:
+      - /Users/vladdsm/Documents/GitHub/shiny-merkle-tree:/home/myself/r-studio/shiny-merkle-tree
+    networks:
+      - my-net
 
 networks:
   my-net:
     name: my-net    
+secrets:
+  my_secret:
+    file: ./my_secret.txt
