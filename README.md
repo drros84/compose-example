@@ -6,6 +6,7 @@
 * Beginner video YouTube https://www.youtube.com/watch?v=DX1T-PKHKhg
 * Docker compose official documentation: https://docs.docker.com/compose/
 * Docker compose reference: https://docs.docker.com/compose/compose-file/
+* Securing secretes: https://stackoverflow.com/q/37552980
 
 ## How to use examples present in this repository?
 
