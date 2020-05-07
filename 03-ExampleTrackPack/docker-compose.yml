@@ -1,0 +1,8 @@
+
+version: "3.7"
+services:
+
+   shiny:
+     image: vladdsm/docker-trackpack
+     ports:
+       - 80:80

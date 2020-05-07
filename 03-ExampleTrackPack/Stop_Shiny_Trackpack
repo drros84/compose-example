@@ -1,0 +1,5 @@
+# Docker compose file to test multi container application:
+# ShinyApp
+
+cd /Users/vladdsm/Documents/GitHub/compose-example/03-ExampleTrackPack
+docker-compose down

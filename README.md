@@ -60,11 +60,19 @@ Use compose for images developed in the docker course:
 
 ## Purpose
 
+Run trackpack shiny app by launching the docker-compose.yml file 
+
 ## Details
+
+Dedicated executable script to launch the app
 
 ## How to run
 
+
+
 ## How to test
+
+Once docker compose is launched - navigate to 0.0.0.0 in the browser
 
 # Example 04
 
