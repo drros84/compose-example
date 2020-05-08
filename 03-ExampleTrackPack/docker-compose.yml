@@ -6,3 +6,4 @@ services:
      image: vladdsm/docker-trackpack
      ports:
        - 80:80
+     restart: always
