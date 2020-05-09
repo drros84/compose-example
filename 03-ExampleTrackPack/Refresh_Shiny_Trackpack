@@ -3,4 +3,6 @@
 
 cd /Users/vladdsm/Documents/GitHub/compose-example/03-ExampleTrackPack
 docker-compose pull shiny
-docker-compose restart shiny
+#docker-compose restart shiny
+docker-compose down
+docker-compose up -d
