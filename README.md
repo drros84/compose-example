@@ -78,6 +78,8 @@ Once docker compose is launched - navigate to 0.0.0.0 in the browser
 
 ## Purpose
 
+Learn how to manage with secrets in compose
+
 ## Details
 
 ## How to run

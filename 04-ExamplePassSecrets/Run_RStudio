@@ -1,0 +1,7 @@
+# Docker compose file to test multi container application:
+# RStudio
+
+# Change directory to the folder with docker-compose.yml file
+cd /Users/vladdsm/Documents/GitHub/compose-example/04-ExamplePassSecrets
+# Start the service in [-d] detached mode
+docker-compose up -d

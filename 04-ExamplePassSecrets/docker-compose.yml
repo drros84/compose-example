@@ -1,0 +1,19 @@
+
+version: "3.7"
+
+
+services:
+
+   studio:
+     image: vladdsm/docker-r-studio
+     
+     ports:
+       - 8787:8787
+     volumes:
+       - /Users/vladdsm/R_Studio_Shared:/home/myself/projects
+     restart: unless-stopped
+     # only for local use -> not secure password management!!!
+     environment:
+       USER: myself
+       PASSWORD: guest     
+
