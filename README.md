@@ -1,4 +1,5 @@
 # compose-example
+
  Developing know-how and examples building multi-container applications with docker-compose
 
 ## Useful documents
@@ -6,7 +7,7 @@
 * Beginner video YouTube https://www.youtube.com/watch?v=DX1T-PKHKhg
 * Docker compose official documentation: https://docs.docker.com/compose/
 * Docker compose reference: https://docs.docker.com/compose/compose-file/
-* Securing secretes: https://stackoverflow.com/q/37552980
+* Securing secrets: https://stackoverflow.com/q/37552980
 
 ## How to use examples present in this repository?
 
@@ -23,6 +24,7 @@ In general, these are the steps to run docker-compose:
 3. Edit docker compose file
 4. Check docker compose file for errors with `docker-compose config`
 5. Execute docker compose file with: `docker-compose up -d`
+6. Once required, put down everything with: `docker-compose down`
 
 # Example 01 - YoutubeTutorial
 
@@ -68,7 +70,7 @@ Dedicated executable script to launch the app
 
 ## How to run
 
-
+Launch executable files in the folder
 
 ## How to test
 
@@ -78,14 +80,18 @@ Once docker compose is launched - navigate to 0.0.0.0 in the browser
 
 ## Purpose
 
-Learn how to manage with secrets in compose
+Run RStudio (using environmental variables to pass secrets)
 
 ## Details
 
 ## How to run
 
+Launch executable files in the folder
+
 ## How to test
 
+`docker ps` to check that container is working;
+navigate to localhost:8787
 
 # Example 05
 

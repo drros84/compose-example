@@ -2,7 +2,7 @@
 # RStudio
 
 # Change directory to the folder with docker-compose.yml file
-cd /Users/vladdsm/Documents/GitHub/compose-example/04-ExamplePassSecrets
+cd /Users/vladdsm/Documents/GitHub/compose-example/04-ExampleRStudio
 # Pull image with R Studio from docker hub. 'studio' is a service mentioned in the *.yml file
 docker-compose pull studio
 #docker-compose restart studio
