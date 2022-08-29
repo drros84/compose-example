@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
    shiny:
-     image: vladdsm/docker-trackpack
+     image: davidros/trackpack
      ports:
        - 80:80
      restart: always
